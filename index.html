@@ -3,13 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>static-preview-component</title>
+    <meta
+      name="description"
+      content="Stats preview card component | Front end Mentor Challenges"
+    />
+    <title>static Preview Component</title>
   </head>
   <body>
-    <div>
-      this is div
-    </div>
+    <section id="parent">
+      <section>
+        <div>
+          <img
+            class="img-m"
+            src="./public/images/image-header-mobile.jpg"
+            alt="image-header-mobile"
+          />
+          <img
+            class="img-d"
+            src="./public/images/image-header-desktop.jpg"
+            alt="image-header-mobile"
+          />
+        </div>
+      </section>
+      <section>
+        <article>
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency
+          </p>
+        </article>
+        <ul>
+          <li>
+            <h2>10k+</h2>
+            <span class="lexend-deca">COMPANIES</span>
+          </li>
+          <li>
+            <h2>314</h2>
+            <span class="lexend-deca">TEMPLATES</span>
+          </li>
+          <li>
+            <h2>12M+</h2>
+            <span class="lexend-deca">QUERIES</span>
+          </li>
+        </ul>
+      </section>
+    </section>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
